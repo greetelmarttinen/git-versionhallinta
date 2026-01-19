@@ -3,7 +3,7 @@
  }
 
  body {
-     background-color: linen;
+     background-color: rgba(96, 141, 92, 0.648);
      display: flex;
      flex-direction: column;
      justify-content: center;
@@ -12,4 +12,6 @@
 
  main {
      text-align: center;
+     color: black;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
  }
