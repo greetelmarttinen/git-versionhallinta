@@ -1,2 +1,0 @@
- 
-Kirjoitan tiedostoon jotain ja tallennan sen Git-versionhallintaan. 
