@@ -15,3 +15,11 @@
      color: black;
      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
  }
+
+ button {
+     background-color: rgba(31, 87, 54, 0.365);
+     color: white;
+     margin: 10px;
+     padding: 8px;
+     border-radius: 8px;
+ }
