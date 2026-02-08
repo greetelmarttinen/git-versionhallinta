@@ -24,8 +24,8 @@ setTime();
 
 /**
  * Setup and start an analog clock using a canvas
- @param canvas The canvas to use
- @param clockWidth The width of the clock (radius*2)
+* @param canvas The canvas to use
+* @param clockWidth The width of the clock (radius*2)
  */
 setupAnalogClock(document.getElementById("analogClock"), 100);
 function setupAnalogClock(canvas, clockWidth) {
@@ -84,11 +84,11 @@ function setupAnalogClock(canvas, clockWidth) {
           ctx.translate(0, -clockWidth / 2);
 
           // Drawing numbers doesn't look so good because of the origin of the text
-          ctx.save();
-          ctx.translate(0, -10);
-          ctx.rotate(-angle);
-          ctx.fillText(i, -3, 0);
-          ctx.restore();
+          //ctx.save();
+          // ctx.translate(0, -10);
+          // ctx.rotate(-angle);
+          // ctx.fillText(i, -3, 0);
+          // ctx.restore();
 
           ctx.moveTo(0, 0);
           ctx.lineTo(0, 10);
