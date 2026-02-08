@@ -1,0 +1,17 @@
+ html {
+     height: 100%;
+ }
+
+ body {
+     background-color: rgba(96, 141, 92, 0.648);
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     height: 100%;
+ }
+
+ main {
+     text-align: center;
+     color: black;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ }
